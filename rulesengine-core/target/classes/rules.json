@@ -1,0 +1,29 @@
+{
+  "rules":
+      [
+        {
+
+          "rule": "Credit Score >= 600 AND History >= 1 Check",
+          "credit_score": 600,
+          "credit_history": 1,
+          "status": "APPROVED"
+
+        },
+        {
+
+          "rule": "Credit Score >= 600 AND History < 1 Check",
+          "credit_score": 600,
+          "credit_history": 0,
+          "status": "NOT APPROVED"
+
+        },
+        {
+
+          "rule": "Credit Score >=400 AND History >= 2 Check",
+          "credit_score": 400,
+          "credit_history": 2,
+          "status": "APPROVED"
+
+        }
+      ]
+}
